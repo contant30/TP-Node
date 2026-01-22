@@ -11,7 +11,7 @@ const Course = sequelize.define('Course', {
         type: DataTypes.STRING,
         allowNull: false
     },
-    
+
     description: {
         type: DataTypes.TEXT,
         allowNull: false
@@ -42,8 +42,8 @@ const Course = sequelize.define('Course', {
     }
 },{
     tableName: 'course',
-    timestamps: true,
-    underscored: true
+    timestamps: true
+    //underscored: true
 });
 
 module.exports = Course;
