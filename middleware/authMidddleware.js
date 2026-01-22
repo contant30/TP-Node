@@ -1,6 +1,6 @@
 const jwt = require('jsonwebtoken');
 
-const authmiddleware = (req, res, next) => {
+const authMiddleware = (req, res, next) => {
 
    // Récupérer le token depuis la requête
     const authHeader = req.headers['authorization'];

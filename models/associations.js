@@ -14,4 +14,4 @@ Course.belongsTo(Category,{
     as: 'category'
 });
 
-module.exports = {Category, Course, User}
+module.exports = {Category, Course, User};

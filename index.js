@@ -11,6 +11,10 @@ app.use(express.json());
 
 connectDB();
 
+app.use('/api/courses', courseRouter);
+app.use('/api/categories', categoryRouter);
+app.use('/api/auth', authRouter);
+
 app.get('/',(req,res)=>{
     res.send('Hello toi');
 });
