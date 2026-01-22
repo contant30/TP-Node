@@ -1,2 +1,35 @@
+# Dépendances
 node_modules/
 
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Base SQLite (dev)
+*.sqlite
+*.db
+db.sqlite
+
+# Variables d'environnement
+.env
+.env.local
+.env.*.local
+
+# Coverage / builds éventuels
+coverage/
+dist/
+build/
+
+# Fichiers temporaires
+*.pid
+*.seed
+*.pid.lock
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
