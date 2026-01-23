@@ -116,7 +116,7 @@ TP-Node/
 
 ##💾 Données de Test (Import Direct)
 
-### 5 Catégories prêtes :
+###  Catégories prêtes :
 ```bash
 [
   {"name":"Développement Web","description":"React/Node.js"},
@@ -126,7 +126,7 @@ TP-Node/
   {"name":"Cybersécurité","description":"Pentest/OWASP"}
 ]
 ```
-###8 Cours exemples :
+###  Cours exemples :
 ```bash
 [
   {"title":"React Avancé","categoryId":1,"level":"avance","price":149.99,"duration":720},
